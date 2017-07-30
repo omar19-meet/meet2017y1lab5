@@ -15,18 +15,24 @@
 ##end= int(input("What is your ending number? "))
 def add_numbers(start, end):
     c=0
-    for number in range(start, end +1):
-##        print(number)
-        c=c+number
+    for i in range(start, end +1):
+##        print(i)
+        c=c+i
     return (c)
 ##answer= add_numbers(start, end)
 ##print(answer)
 
-test1= add_numbers(1,2)
-print(test1)
+####test1= add_numbers(1,2)
+##print(test1)
 
 test2= add_numbers(1,100)
 print(test2)
 
-test3=add_numbers(1000,5000)
-print(test3)
+##test3=add_numbers(1000,5000)
+##print(test3)
+##
+##
+##
+##
+##farah= add_numbers(333,777)
+##print(farah)
